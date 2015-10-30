@@ -5,6 +5,7 @@
 
 var router = require('express').Router() ;
 var bodyParser = require('body-parser') ;
+var io = require('socket.io') ;
 router.use(bodyParser.json()) ;
 
 
