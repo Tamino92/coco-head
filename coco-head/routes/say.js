@@ -54,7 +54,7 @@ router.route('/')
 										repeat : request.body.repeat,
 										delay : request.body.delay
 									}) ;
-	response.status(200).json("recieved post request") ;
+	response.status(200).json("ok") ;
 });
 
 
